@@ -1,0 +1,94 @@
+.option-button {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 10px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+
+.headerr {
+    color: rgb(0, 0, 0);
+}
+.option-button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.input-field {
+  margin-top: 20px;;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.input-field input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.container {
+  width: 500px;
+  padding: 20px;
+  margin: 100px auto;
+  background-color: #ffffffb4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.container input {
+  width: 30%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.container button {
+  width: 95%;
+  padding: 10px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #ffffff;
+}
+
+.submit{
+    background-color: #000;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 10px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit:hover{
+    background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.bvnandninbutton{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
